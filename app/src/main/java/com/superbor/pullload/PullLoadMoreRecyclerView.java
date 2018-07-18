@@ -25,7 +25,7 @@ import android.widget.TextView;
  * 说明：
  */
 public class PullLoadMoreRecyclerView extends LinearLayout {
-    private RecyclerView mRecyclerView;
+    public RecyclerView mRecyclerView;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private PullLoadMoreListener mPullLoadMoreListener;
     private boolean hasMore = true;
